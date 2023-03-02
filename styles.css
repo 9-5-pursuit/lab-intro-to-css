@@ -1,0 +1,59 @@
+h1 {
+  font-family: fantasy;
+  color: purple;
+  font-size: 30px;
+}
+
+h2 {
+  color: purple;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h3 {
+  text-decoration: underline;
+  color: purple;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: sans-serif;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+div {
+  margin: 10px auto;
+}
+
+img {
+  height: 200px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+ol {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+li {
+  text-align: center;
+  border: 1px solid purple;
+  border-radius: 10px;
+  background-color: thistle;
+  color: rebeccapurple;
+  padding-left: 30px;
+}
