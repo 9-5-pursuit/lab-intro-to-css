@@ -1,0 +1,22 @@
+h1 {
+  font-family: fantasy;
+  color: rgb(128, 0, 128);
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  font-weight: bold;
+}
+li {
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+}
+
+/* p {
+  padding-top: 20px;
+  padding-bottom: 20 px;
+} */
