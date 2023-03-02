@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-family: fantasy;
+  color: purple;
+  font-size: 30px;
+}
+h2 {
+  background-color: #a9745d;
+  color: #f9f9fa;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  font-weight: 700;
+}
+li {
+  text-align: center;
+  border: 1px solid purple;
+  border-radius: 10px;
+  color: rebeccapurple;
+  background-color: thistle;
+  padding-left: 30px;
+  width: 200px;
+}
+img {
+  height: 200px;
+}
+h3 {
+  background-color: #a9745d;
+  text-decoration: underline;
+  display: inline-block;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #82b6d2;
+  width: 400px;
+}
