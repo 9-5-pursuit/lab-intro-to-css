@@ -3,25 +3,56 @@
   <head>
     <meta charset="utf-8" />
     <title>CSS Intro</title>
+
+      <style>
+        div.container{
+          text-align: center;
+        }
+        ul.myUL{
+          display:inline-block ;
+          text-align: center;
+          
+        }
+        h3{
+          text-decoration-line: underline;
+        }
+        body{
+          font-family: sans-serif;
+          margin-left: 40px;
+          margin-right: 40px;
+        }
+      li {
+  border: 1px solid rgb(128, 0, 128);
+  border-radius: 10px;
+        }
+        li{
+          padding-left: 30px; 
+        }
+        li{
+            color: rgb(102, 51, 153); background-color: rgb(216, 191, 216);
+        }
+
+      </style>
+
   </head>
   <body>
-    <h1>Your Name Here</h1>
+    <h1 style="font-family: fantasy; color: rgb(128,0,128); font-size: 30px;">Rooden Berry</h1>
     <div>
-      <p>
+      <p style="padding-top: 20px;padding-bottom: 20px;">
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
         working I'm busy doing this and that.
       </p>
     </div>
 
-    <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
+    <img style="height: 200px;"
+      src="https://www.shutterstock.com/image-vector/man-silhouette-profile-picture-vector-260nw-151265393.jpg"
       alt=""
     />
 
-    <div>
+    <div class="container">
       <h3>Here are some of my Skills!</h3>
-      <ul>
+      <ul style="list-style: none; myUL; border: 1px; border-radius: 10px;">
         <h3>Languages</h3>
         <li>JavaScript</li>
         <li>SQL</li>
@@ -29,7 +60,7 @@
         <li>CSS3</li>
       </ul>
 
-      <ol>
+      <ol style="font-weight: bold; list-style: none;">
         <h3>Libraries</h3>
         <li>React</li>
         <li>PostgreSQL</li>
@@ -50,11 +81,11 @@
     <h2>Contact Me</h2>
     <div>
       Email me at:
-      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
+      <a href="mailto:rubenslombard@pursuit.org" target="_top">rubenslombard@pursuit.org</a>
     </div>
 
     <ul>
-      <li><a href="github.com">github link</a></li>
+      <li><a href="https://lombarudi24.github.io/my-first-github-page2/">github link</a></li>
       <li><a href="linkedin.com">LinkedIn link</a></li>
       <li><a href="angellist.com">Angel list link</a></li>
     </ul>
