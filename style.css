@@ -2,6 +2,7 @@ h1 {
   font-family: Fantasy;
   font-size: 30px;
   color: purple;
+  transition: 0.5s;
 }
 
 ul {
@@ -27,6 +28,7 @@ li {
 
 body {
   font-family: sans-serif;
+  background-color: bisque;
 }
 
 h3 {
@@ -38,30 +40,41 @@ p {
   padding-bottom: 20px;
 }
 
-body {
-  background-color: bisque;
-}
-
-/* img {
-  border-radius: 2px;
+img {
   display: block;
   border-color: solid purple;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1%;
-  padding-bottom: 1%;
   padding-left: 20%;
   padding-right: 20%;
-} */
+  border: 1px solid rgb(102, 51, 153);
+}
+
+h1:hover {
+  font-size: 60px;
+}
 
 body {
   margin: 5%;
 }
 
-h1,
-h2,
-div,
-h3,
+h1 {
+  text-align: center;
+  padding-left: 5%;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 p {
   text-align: center;
 }
