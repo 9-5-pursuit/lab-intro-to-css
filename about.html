@@ -22,15 +22,16 @@
       font-family: fantasy;
       color: purple;
       margin-left: 5px;
+      font-size: 30px;
     }
     h1:hover {
       color: aqua;
     }
+    h2 {
+      text-shadow: 2px 2px #0c2627;;
+    }
     h3 {
       text-decoration: underline;
-    }
-    h1 {
-      font-size: 30px;
     }
     ul {
       list-style: none;
@@ -41,6 +42,9 @@
       align-self: center;
       width: max-content;
     }
+    ol:hover {
+  animation: tilt-n-move-shaking 0.25s infinite;
+}
     li {
       text-align: center;
       margin: 5px;
@@ -60,6 +64,13 @@
       inline-size: 300px;
       margin-left: 10px;
     }
+    @keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
   </style>
   <body>
     <h1>dave p</h1>
