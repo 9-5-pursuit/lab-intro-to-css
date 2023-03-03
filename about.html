@@ -4,8 +4,107 @@
     <meta charset="utf-8" />
     <title>CSS Intro</title>
   </head>
+
+  <style>
+    h1 {
+      border: solid purple;
+      background-color: lightgrey;
+      padding: 20px;
+      padding-right: 50px;
+      padding-left: 50px;
+      border-radius: 15px;
+      width: 150px;
+      height: 50px;
+      margin: auto;
+      font-family: fantasy;
+      color: purple;
+      font-size: 30px;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: purple;
+    }
+    h2 {
+      color: whitesmoke;
+      border-bottom: 5px solid whitesmoke;
+      width: 150px;
+    }
+
+    h3 {
+      text-decoration: underline;
+      text-align: center;
+
+      border: 2px solid orange;
+      border-radius: 100px;
+      padding: 20px;
+      color: whitesmoke;
+    }
+
+    ul {
+      list-style: none;
+      border: 1px red;
+    }
+
+    ol {
+      font-weight: bold;
+      border: 1px red;
+      list-style: none;
+    }
+
+    li {
+      text-align: center;
+      border: 1px solid purple;
+      border-radius: 10px;
+      padding-left: 30px;
+      color: rebeccapurple;
+      background-color: thistle;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 10px solid palevioletred;
+      shape-margin: 10px;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    img {
+      height: 200px;
+      border-radius: 25px;
+    }
+    p {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: whitesmoke;
+      text-align: center;
+    }
+    body {
+      background: -webkit-linear-gradient(
+          110deg,
+          #a60af3 40%,
+          rgba(0, 0, 0, 0) 30%
+        ),
+        -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff
+              70%);
+      background: -o-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%),
+        -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+      background: -moz-linear-gradient(
+          110deg,
+          #a60af3 40%,
+          rgba(0, 0, 0, 0) 30%
+        ),
+        -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+      background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%),
+        radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    }
+  </style>
+
   <body>
-    <h1>Your Name Here</h1>
+    <h1>Luis Garcia</h1>
     <div>
       <p>
         This is a bunch of information about myself. I'm from here and there and
@@ -15,8 +114,8 @@
     </div>
 
     <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
-      alt=""
+      src="https://www.shutterstock.com/image-vector/man-silhouette-profile-picture-vector-260nw-151265393.jpg"
+      alt="blank photo"
     />
 
     <div>
@@ -48,9 +147,19 @@
     </div>
 
     <h2>Contact Me</h2>
-    <div>
+    <div style="color: whitesmoke">
       Email me at:
-      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
+      <a
+        style="
+          border: 2px solid peru;
+          padding: 10px;
+          background-color: thistle;
+          border-radius: 15px;
+        "
+        href="mailto:hello@pursuit.org"
+        target="_top"
+        >hello@pursuit.org</a
+      >
     </div>
 
     <ul>
