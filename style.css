@@ -1,0 +1,82 @@
+h1 {
+  font-family: Fantasy;
+  font-size: 30px;
+  color: purple;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  font-weight: bold;
+}
+li {
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(102, 51, 153);
+  background-color: rgb(216, 191, 216);
+  padding-left: 30px;
+  border: 1px solid purple;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: bisque;
+}
+
+/* ----------------------------------------------- */
+/* My 10 extra */
+img {
+  border-radius: 2px;
+  border-color: solid purple;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 40%;
+  padding-right: 20%;
+}
+
+body {
+  margin: 5%;
+}
+
+h1,
+h2,
+div,
+h3,
+p {
+  text-align: center;
+}
+
+h3 {
+  font-family: fantasy;
+}
+
+h2 {
+  font-family: fantasy;
+  transition: 0.4s;
+}
+
+h2:hover {
+  font-size: 40px;
+}
+
+/* margin */
+/* display: block; */
