@@ -4,8 +4,76 @@
     <meta charset="utf-8" />
     <title>CSS Intro</title>
   </head>
+  <style>
+    body {
+      background: #9be2f8;
+      font-family: sans-serif;
+    }
+    img {
+      height: 200px;
+      width: 200px;
+      margin-left: 15px;
+    }
+    img:hover {
+      height: 220px;
+      width: 220px;
+    }
+    h1 {
+      font-family: fantasy;
+      color: purple;
+      margin-left: 5px;
+      font-size: 30px;
+    }
+    h1:hover {
+      color: aqua;
+    }
+    h2 {
+      text-shadow: 2px 2px #0c2627;;
+    }
+    h3 {
+      text-decoration: underline;
+    }
+    ul {
+      list-style: none;
+      width: min-content;
+    }
+    ol {
+      font-weight: bold;
+      align-self: center;
+      width: max-content;
+    }
+    ol:hover {
+  animation: tilt-n-move-shaking 0.25s infinite;
+}
+    li {
+      text-align: center;
+      margin: 5px;
+      border-radius: 10px;
+      border: 1px solid rgb(128, 0, 128);
+      color: rebeccapurple;
+      background: thistle;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    li:hover {
+      color: lightgrey;
+    }
+    p {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      inline-size: 300px;
+      margin-left: 10px;
+    }
+    @keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+  </style>
   <body>
-    <h1>Your Name Here</h1>
+    <h1>dave p</h1>
     <div>
       <p>
         This is a bunch of information about myself. I'm from here and there and
@@ -15,8 +83,8 @@
     </div>
 
     <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
-      alt=""
+      src="https://i.imgur.com/SAwFwau.png"
+      alt="profile picture"
     />
 
     <div>
